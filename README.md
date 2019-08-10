@@ -6,7 +6,7 @@ and next a test case which takes a specific wifi SSID, and prints it’s signal 
 * Activate environment variable
 > ` . wifimanenv / bin / activate `
 * run appium server
-* run emulator
+* run emulator in android studio
 * make sure that the list of available devices emulator exists necessary
 > `adb devices`
 * run tests
