@@ -5,9 +5,9 @@ and next a test case which takes a specific wifi SSID, and prints it’s signal 
 ## How ​​to start:
 * Activate environment variable
 > ` . wifimanenv / bin / activate `
-* run appium server
+* run appium server on host: localhost:4723
 * run emulator in android studio
 * make sure that the list of available devices emulator exists necessary
 > `adb devices`
 * run tests
-> `py.test -v wifiman.py`
+> `py.test -v wifiman.py -s`
