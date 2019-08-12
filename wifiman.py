@@ -67,7 +67,7 @@ class TestWebViewAndroid():
 #вывести среднее и умереть смертью храбрых
         i = 0
         my_list = []
-        for _ in range(10):
+        for _ in range(60):
             el = driver.find_element_by_android_uiautomator(
                 'new UiSelector().resourceId(\"com.ubnt.usurvey:id/vSiteDetailGaugeSignalStrengthValue\")'
             ).get_attribute("text")
